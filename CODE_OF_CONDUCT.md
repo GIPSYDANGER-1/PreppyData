@@ -1,54 +1,54 @@
-# 행동 강령 📜
+# Code of Conduct 📜
 
-## 우리의 약속 🤝
+## Our Pledge 🤝
 
-우리는 모두가 편안하게 참여할 수 있는 환경을 만들기 위해 노력합니다. 나이, 경험 수준, 교육 수준, 성별, 국적, 개인적 외모, 인종, 종교 등과 관계없이 모든 참여자가 차별받지 않는 커뮤니티를 만들 것을 약속합니다.
+We are committed to creating an environment where everyone can participate comfortably. We pledge to make our community non-discriminatory regardless of age, experience level, education, gender, nationality, personal appearance, race, religion, or other similar characteristics.
 
-## 우리의 기준 ⭐
+## Our Standards ⭐
 
-### 바람직한 행동 👍
-* 친근하고 포용적인 언어 사용하기
-* 서로 다른 관점과 경험을 존중하기
-* 건설적인 피드백을 열린 마음으로 받아들이기
-* 커뮤니티에 최선이 되는 것에 집중하기
-* 다른 커뮤니티 구성원들에게 공감하기
+### Positive Behaviors 👍
+* Using welcoming and inclusive language
+* Respecting different viewpoints and experiences
+* Accepting constructive feedback gracefully
+* Focusing on what's best for the community
+* Showing empathy towards other community members
 
-### 용납될 수 없는 행동 ⛔
-* 부적절한 언어나 이미지 사용
-* 트롤링, 모욕적인 발언, 개인적/정치적 공격
-* 공개적이거나 사적인 괴롭힘
-* 동의 없는 개인정보 공개 (실제 주소나 전자 주소 등)
-* 전문적인 환경에서 부적절한 기타 행위
+### Unacceptable Behaviors ⛔
+* Use of inappropriate language or imagery
+* Trolling, insulting comments, or personal/political attacks
+* Public or private harassment
+* Publishing others' private information without permission (doxing)
+* Other conduct inappropriate for a professional setting
 
-## 우리의 책임 💪
+## Our Responsibilities 💪
 
-프로젝트 관리자는 허용되는 행동의 기준을 명확히 하고, 부적절한 행동에 대해 공정하고 적절한 시정 조치를 취할 책임이 있습니다.
+Project maintainers are responsible for clarifying standards of acceptable behavior and taking appropriate corrective action in response to any instances of unacceptable behavior.
 
-## 적용 범위 🌐
+## Scope 🌐
 
-이 행동 강령은 프로젝트 공간 내에서뿐만 아니라, 개인이 프로젝트나 커뮤니티를 대표할 때 공개 공간에서도 적용됩니다.
+This Code of Conduct applies within project spaces and when an individual represents the project or its community in public spaces.
 
-## 시행 ⚖️
+## Enforcement ⚖️
 
-괴롭힘이나 기타 용납할 수 없는 행동은 프로젝트 팀에 신고할 수 있습니다. 모든 불만 사항은 검토되고 조사되며, 상황에 따라 적절하고 공정한 대응이 이루어질 것입니다.
+Instances of harassment or other unacceptable behavior may be reported to the project team. All complaints will be reviewed and investigated, resulting in a response deemed necessary and appropriate to the circumstances.
 
-## 데이터 처리 관련 특별 조항 📊
+## Special Provisions for Data Processing 📊
 
-* 모든 데이터는 정확성과 일관성을 유지하며 처리되어야 합니다
-* 데이터 전처리 과정은 투명하게 문서화되어야 합니다
-* 개인정보가 포함된 데이터는 특별한 주의를 기울여 처리해야 합니다
-* 데이터 처리 결과는 재현 가능해야 합니다
-* 데이터 품질 향상을 위한 건설적인 제안을 환영합니다
+* All data must be processed maintaining accuracy and consistency
+* Data preprocessing procedures must be transparently documented
+* Personal information data must be handled with special care
+* Data processing results must be reproducible
+* Constructive suggestions for improving data quality are welcome
 
-## 출처 및 라이선스 📚
+## Attribution and License 📚
 
-본 행동 강령은 다음을 참고하여 작성되었습니다:
+This Code of Conduct is adapted from:
 
-* [Contributor Covenant](https://www.contributor-covenant.org/) 행동 강령 (버전 2.0)
-* GitHub의 [Community Guidelines](https://docs.github.com/ko/site-policy/github-terms/github-community-guidelines)
+* [Contributor Covenant](https://www.contributor-covenant.org/) Code of Conduct (Version 2.0)
+* GitHub's [Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 * [Python Community Code of Conduct](https://www.python.org/psf/conduct/)
 
-이 문서는 Creative Commons Attribution 4.0 International License에 따라 사용이 허가됩니다.
+This document is licensed under the Creative Commons Attribution 4.0 International License.
 
-최종 수정일: [2024.11.13]
-작성자: PreppyData Team
+Last Modified: [2024.11.13]
+Authors: PreppyData Team
