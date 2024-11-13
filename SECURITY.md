@@ -1,60 +1,65 @@
-# Security Policy
+# Security Policy 🔒
+
+## Data Security Principles
+
+### Data Processing Security 🛡️
+* All data preprocessing steps are executed safely in the local environment
+* Special attention is required for data containing sensitive personal information
+* Data encryption and anonymization processes are recommended
+* Datasets downloaded from external sources must be verified for trustworthy origins
+
+### Secure Data Formats and Processing 📋
+* Use of secure file formats is recommended for data I/O (e.g., .csv, .parquet)
+* Usage of potentially dangerous formats (e.g., pickle) is restricted
+* Data integrity is ensured during transformation processes
+* Memory management requires attention when processing large-scale data
+
+### Code Execution Environment Protection 💻
+* Data from external sources must be validated before execution
+* Execution of data processing scripts from unknown sources is prohibited
+* System resource usage is monitored to prevent overload
+* Virtual Environment should be used when necessary for isolated execution environments
+
+### Data Preprocessing Safety Guidelines 📝
+* Original data backups must be maintained
+* Data preprocessing steps should be logged for traceability
+* Sample data testing should be conducted before large-scale data transformation
+* Automated preprocessing scripts must undergo code review before execution
+
+## Version Control and Updates 🔄
+* Regular security updates provided
+* Immediate patches for versions with discovered vulnerabilities
+* Maintenance of security issue records for previous versions
+* Version updates for major data processing functionality changes
+
+## Recommendations ✅
+1. Create backups before data processing
+2. Maintain latest version usage
+3. Activate logging for tracking data processing steps
+4. Set appropriate access permissions
+5. Regular security update checks
+6. Verify system requirements for large-scale data processing
+
+## Vulnerability Reporting 📝
+
+If you discover a security vulnerability, please report it through:
+
+1. GitHub Security tab
+2. Email: [evekha123@naver.com]
+
+Reported vulnerabilities will be handled as follows:
+* Acknowledgment within 24 hours
+* Initial assessment within 72 hours
+* Patch development and deployment for confirmed vulnerabilities
+
+## External Dependency Management 🔗
+* All external libraries used are regularly checked for security updates
+* Library versions with discovered vulnerabilities are updated immediately
+* Security review is conducted when adding new dependencies
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-We take the security of our project seriously. If you believe you have found a security vulnerability, please follow these steps:
-
-1. **Do Not** disclose the vulnerability publicly
-2. Send a detailed description of the vulnerability to [your-security-email@domain.com]
-   - Include steps to reproduce the issue
-   - Include the version number where you found the vulnerability
-   - If possible, include suggestions for fixing the vulnerability
-
-### What to Expect
-
-After you submit a vulnerability report:
-
-- You'll receive an acknowledgment within 48 hours
-- We will investigate and provide an initial assessment within 1 week
-- We'll keep you informed about our progress
-- Once the vulnerability is fixed, we'll publicly acknowledge your responsible disclosure
-
-### Security Update Process
-
-When we receive a security bug report, we will:
-
-1. Confirm the problem and determine the affected versions
-2. Audit code to find any potential similar problems
-3. Prepare fixes for all supported versions
-4. Release new security fix versions
-
-## Best Practices
-
-- Keep your dependencies up to date
-- Use the latest stable version of the project
-- Enable security features provided by the project
-- Follow our security guidelines in the documentation
-
-## Contact
-
-For any security-related questions or concerns, please contact:
-- Email: [security@yourdomain.com]
-- PGP Key: [Optional PGP Key details]
-
-## Security Updates
-
-Security updates will be released through:
-- GitHub Security Advisories
-- Release Notes
-- Security mailing list (if applicable) 
+| Version | Security Updates |
+|————|————————|
+| 0.0.1   | :white_check_mark:|
+| < 0.0.1 | :x:             |
