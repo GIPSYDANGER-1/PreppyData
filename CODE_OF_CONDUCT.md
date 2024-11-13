@@ -1,35 +1,54 @@
-# Code of Conduct
+# 행동 강령 📜
 
-## Our Pledge
+## 우리의 약속 🤝
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+우리는 모두가 편안하게 참여할 수 있는 환경을 만들기 위해 노력합니다. 나이, 경험 수준, 교육 수준, 성별, 국적, 개인적 외모, 인종, 종교 등과 관계없이 모든 참여자가 차별받지 않는 커뮤니티를 만들 것을 약속합니다.
 
-## Our Standards
+## 우리의 기준 ⭐
 
-Examples of behavior that contributes to creating a positive environment include:
+### 바람직한 행동 👍
+* 친근하고 포용적인 언어 사용하기
+* 서로 다른 관점과 경험을 존중하기
+* 건설적인 피드백을 열린 마음으로 받아들이기
+* 커뮤니티에 최선이 되는 것에 집중하기
+* 다른 커뮤니티 구성원들에게 공감하기
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+### 용납될 수 없는 행동 ⛔
+* 부적절한 언어나 이미지 사용
+* 트롤링, 모욕적인 발언, 개인적/정치적 공격
+* 공개적이거나 사적인 괴롭힘
+* 동의 없는 개인정보 공개 (실제 주소나 전자 주소 등)
+* 전문적인 환경에서 부적절한 기타 행위
 
-Examples of unacceptable behavior include:
+## 우리의 책임 💪
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as physical or electronic addresses, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+프로젝트 관리자는 허용되는 행동의 기준을 명확히 하고, 부적절한 행동에 대해 공정하고 적절한 시정 조치를 취할 책임이 있습니다.
 
-## Our Responsibilities
+## 적용 범위 🌐
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+이 행동 강령은 프로젝트 공간 내에서뿐만 아니라, 개인이 프로젝트나 커뮤니티를 대표할 때 공개 공간에서도 적용됩니다.
 
-## Scope
+## 시행 ⚖️
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
+괴롭힘이나 기타 용납할 수 없는 행동은 프로젝트 팀에 신고할 수 있습니다. 모든 불만 사항은 검토되고 조사되며, 상황에 따라 적절하고 공정한 대응이 이루어질 것입니다.
 
-## Enforcement
+## 데이터 처리 관련 특별 조항 📊
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. All complaints will be reviewed and investigated and will result in a response that is 
+* 모든 데이터는 정확성과 일관성을 유지하며 처리되어야 합니다
+* 데이터 전처리 과정은 투명하게 문서화되어야 합니다
+* 개인정보가 포함된 데이터는 특별한 주의를 기울여 처리해야 합니다
+* 데이터 처리 결과는 재현 가능해야 합니다
+* 데이터 품질 향상을 위한 건설적인 제안을 환영합니다
+
+## 출처 및 라이선스 📚
+
+본 행동 강령은 다음을 참고하여 작성되었습니다:
+
+* [Contributor Covenant](https://www.contributor-covenant.org/) 행동 강령 (버전 2.0)
+* GitHub의 [Community Guidelines](https://docs.github.com/ko/site-policy/github-terms/github-community-guidelines)
+* [Python Community Code of Conduct](https://www.python.org/psf/conduct/)
+
+이 문서는 Creative Commons Attribution 4.0 International License에 따라 사용이 허가됩니다.
+
+최종 수정일: [2024.11.13]
+작성자: PreppyData Team
