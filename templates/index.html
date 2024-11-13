@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreppyData - 데이터 전처리 도구</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .options-group {
+            margin: 15px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e1e4e8;
+        }
+        .options-group h3 {
+            color: #202124;
+            margin-top: 0;
+        }
+        .file-upload {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .submit-btn {
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #1557b0;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        label {
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PreppyData</h1>
+        <p>머신러닝을 위한 데이터 전처리 도구</p>
+
+        <form action="/process" method="post" enctype="multipart/form-data">
+            <div class="section">
+                <h2>데이터 업로드</h2>
+                <div class="file-upload">
+                    <input type="file" name="file" accept=".csv,.xlsx" required>
+                    <p>CSV 또는 Excel 파일을 선택하세요</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>전처리 옵션</h2>
+                
+                <div class="options-group">
+                    <h3>결측치 처리</h3>
+                    <input type="radio" name="missing" id="missing_mean" value="mean">
+                    <label for="missing_mean">평균값으로 대체</label><br>
+                    <input type="radio" name="missing" id="missing_median" value="median">
+                    <label for="missing_median">중앙값으로 대체</label><br>
+                    <input type="radio" name="missing" id="missing_drop" value="drop">
+                    <label for="missing_drop">결측치 행 제거</label>
+                </div>
+
+                <div class="options-group">
+                    <h3>이상치 처리</h3>
+                    <input type="radio" name="outlier" id="outlier_iqr" value="iqr">
+                    <label for="outlier_iqr">IQR 방식으로 제거</label><br>
+                    <input type="radio" name="outlier" id="outlier_zscore" value="zscore">
+                    <label for="outlier_zscore">Z-score 방식으로 제거</label>
+                </div>
+
+                <div class="options-group">
+                    <h3>스케일링</h3>
+                    <input type="radio" name="scaling" id="scaling_standard" value="standard">
+                    <label for="scaling_standard">Standard Scaling</label><br>
+                    <input type="radio" name="scaling" id="scaling_minmax" value="minmax">
+                    <label for="scaling_minmax">Min-Max Scaling</label><br>
+                    <input type="radio" name="scaling" id="scaling_robust" value="robust">
+                    <label for="scaling_robust">Robust Scaling</label>
+                </div>
+
+                <div class="options-group">
+                    <h3>인코딩</h3>
+                    <input type="radio" name="encoding" id="encoding_onehot" value="onehot">
+                    <label for="encoding_onehot">One-Hot Encoding</label><br>
+                    <input type="radio" name="encoding" id="encoding_label" value="label">
+                    <label for="encoding_label">Label Encoding</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">전처리 시작</button>
+        </form>
+    </div>
+</body>
+</html> 
