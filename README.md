@@ -6,7 +6,7 @@
   <a href="README.zh.md">中文</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.fr.md">Français</a> |
-  <a href="README.ep.md">Espanól</a>
+  <a href="README.ep.md">Español</a>
 </p>
 
 # PreppyData
