@@ -2,7 +2,7 @@
 <p align="center">
   <a href="README.en.md">🇬🇧English</a> |
   <a href="README.ko.md">🇰🇷한국어</a> |
-  <a href="README.ja.md">🇯🇵日本語</a> |
+  <a href="README.jp.md">🇯🇵日本語</a> |
   <a href="README.cn.md">🇨🇳中文</a> |
   <a href="README.gr.md">🇩🇪Deutsch</a> |
   <a href="README.fr.md">🇫🇷Français</a> |
