@@ -10,7 +10,7 @@
 </p>
 
 # PreppyData
-> We provide Data Preprocessing for everybody
+> We provide Data Preprocessing for anyone
 
 ## 🔍 Background & Problem Statement
 
