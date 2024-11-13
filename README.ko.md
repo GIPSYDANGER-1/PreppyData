@@ -10,7 +10,7 @@
 </p>
 
 # PreppyData
-> We provide Data Preprocessing for everybody
+> 우리는 누구에게나 데이터 전처리를 제공합니다
 
 ## 🔍 Background & Problem Statement
 
