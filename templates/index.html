@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreppyData - 데이터 전처리 도구</title>
     <style>
+        /* 기본 스타일 설정 */
         body {
             font-family: 'Arial', sans-serif;
             max-width: 800px;
@@ -70,10 +71,12 @@
         <h1>PreppyData</h1>
         <p>머신러닝을 위한 데이터 전처리 도구</p>
 
+        <!-- 데이터 전처리 폼 시작 -->
         <form action="/process" method="post" enctype="multipart/form-data">
             <div class="section">
                 <h2>데이터 업로드</h2>
                 <div class="file-upload">
+                    <!-- 파일 업로드 입력 -->
                     <input type="file" name="file" accept=".csv,.xlsx" required>
                     <p>CSV 또는 Excel 파일을 선택하세요</p>
                 </div>
@@ -82,6 +85,7 @@
             <div class="section">
                 <h2>전처리 옵션</h2>
                 
+                <!-- 결측치 처리 옵션 -->
                 <div class="options-group">
                     <h3>결측치 처리</h3>
                     <input type="radio" name="missing" id="missing_mean" value="mean">
@@ -92,6 +96,7 @@
                     <label for="missing_drop">결측치 행 제거</label>
                 </div>
 
+                <!-- 이상치 처리 옵션 -->
                 <div class="options-group">
                     <h3>이상치 처리</h3>
                     <input type="radio" name="outlier" id="outlier_iqr" value="iqr">
@@ -100,6 +105,7 @@
                     <label for="outlier_zscore">Z-score 방식으로 제거</label>
                 </div>
 
+                <!-- 스케일링 옵션 -->
                 <div class="options-group">
                     <h3>스케일링</h3>
                     <input type="radio" name="scaling" id="scaling_standard" value="standard">
@@ -110,6 +116,7 @@
                     <label for="scaling_robust">Robust Scaling</label>
                 </div>
 
+                <!-- 인코딩 옵션 -->
                 <div class="options-group">
                     <h3>인코딩</h3>
                     <input type="radio" name="encoding" id="encoding_onehot" value="onehot">
@@ -119,8 +126,9 @@
                 </div>
             </div>
 
+            <!-- 전처리 시작 버튼 -->
             <button type="submit" class="submit-btn">전처리 시작</button>
         </form>
     </div>
 </body>
-</html> 
+</html>
