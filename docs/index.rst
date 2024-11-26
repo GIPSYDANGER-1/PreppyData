@@ -15,15 +15,54 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-Requirements
-------------
 
-- Python 3.x
-- Flask
-- Pandas
-
-Usage
+Project Overview
 ================
 
-To use the application, run:
+PreppyData는 데이터 전처리를 위한 도구로, 사용자가 데이터 품질을 향상시키고 분석 및 머신러닝을 용이하게 할 수 있도록 돕습니다.
 
+Getting Started
+================
+
+Installation
+------------
+
+To install the project, run:
+
+
+Technical Overview
+===================
+
+The project is built using Flask and Pandas.
+
+API Reference
+================
+
+.. http:get:: /upload
+
+   Upload a file.
+
+Configuration Guide
+====================
+
+Configuration options can be set in the `app.py` file.
+
+Maintenance and Troubleshooting
+================================
+
+Regular maintenance procedures include checking for updates.
+
+Contributing Guidelines
+========================
+
+To contribute, please follow the steps outlined in `CONTRIBUTING.md`.
+
+FAQ
+===
+
+Common questions and concerns can be addressed here.
+
+Release Notes
+=============
+
+.DS_Store
