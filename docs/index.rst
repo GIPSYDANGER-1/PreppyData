@@ -15,3 +15,15 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+Requirements
+------------
+
+- Python 3.x
+- Flask
+- Pandas
+
+Usage
+================
+
+To use the application, run:
+
