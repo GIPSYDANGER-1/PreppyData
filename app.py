@@ -64,10 +64,16 @@ def encode_categorical(df, method):
     
     return df
 
-@app.route('/', methods=['GET'])
-def index():
-    """메인 페이지 렌더링"""
-    return render_template('index.html')
+@app.route('/')
+def home():
+    return render_template('home.html')  # 메인 페이지
+
+@app.route('/index')
+def index_page():
+    return render_template('index.html')  # 추가 페이지
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 @app.route('/process', methods=['POST'])
 def process_data():
