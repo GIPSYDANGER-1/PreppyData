@@ -1,0 +1,212 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="python" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configuration Guide &mdash; PreppyData  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="canonical" href="https://yourproject.readthedocs.io/Configuration Guide.html"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d048f138"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Maintenance and Troubleshooting" href="Maintenance%20and%20Troubleshooting.html" />
+    <link rel="prev" title="API Reference" href="API%20Reference.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+
+          
+          
+          <a href="index.html">
+            
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="About%20the%20Project.html">About the Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Getting%20Started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="How%20to%20Use.html">How to Use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Technical%20Overview.html">Technical Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="API%20Reference.html">API Reference</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuration Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-options">Configuration Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#default-settings">Default Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#customization-methods">Customization Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-customize-preprocessing-steps">How to Customize Preprocessing Steps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tips-for-effective-configuration">Tips for Effective Configuration</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Maintenance%20and%20Troubleshooting.html">Maintenance and Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Contribution%20Guidelines.html">Contribution Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Release%20Notes.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: white" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PreppyData</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Configuration Guide</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Configuration Guide.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configuration-guide">
+<h1>Configuration Guide<a class="headerlink" href="#configuration-guide" title="Link to this heading"></a></h1>
+<p>PreppyData offers a range of configuration options to customize your data preprocessing experience. This guide explains the available options, default settings, and how you can tailor the preprocessing steps to fit your needs.</p>
+<section id="configuration-options">
+<h2>Configuration Options<a class="headerlink" href="#configuration-options" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p><strong>Data Encoding Methods</strong>
+- Transform categorical data into numerical format suitable for analysis.
+- <strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>One-Hot Encoding</strong>: Converts categories into binary columns.</p></li>
+<li><p><strong>Label Encoding</strong>: Assigns a unique integer to each category.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Outlier Detection Techniques</strong>
+- Identify and handle outliers in your dataset.
+- <strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Z-Score</strong>: Detects outliers based on standard deviations from the mean.</p></li>
+<li><p><strong>Interquartile Range (IQR)</strong>: Uses quartiles to find anomalies.</p></li>
+<li><p><strong>Local Outlier Factor (LOF)</strong>: Identifies anomalies based on local density.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Missing Value Handling</strong>
+- Address missing data to improve dataset completeness.
+- <strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Mean Imputation</strong>: Replaces missing values with the mean of the column.</p></li>
+<li><p><strong>Median Imputation</strong>: Uses the median to fill missing values.</p></li>
+<li><p><strong>Deletion</strong>: Removes rows or columns with missing values.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Feature Selection Strategies</strong>
+- Select relevant features to enhance model performance.
+- <strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Correlation-Based Selection</strong>: Chooses features based on correlation with the target variable.</p></li>
+<li><p><strong>LASSO Regression</strong>: Uses regularization to select important features.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="default-settings">
+<h2>Default Settings<a class="headerlink" href="#default-settings" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Automatic Application</strong>: If you do not select any options, PreppyData will automatically apply default preprocessing methods.</p></li>
+<li><p><strong>Default Encoding</strong>: One-Hot Encoding.</p></li>
+<li><p><strong>Default Outlier Detection</strong>: IQR method.</p></li>
+<li><p><strong>Default Missing Value Handling</strong>: Mean Imputation.</p></li>
+<li><p><strong>Default Feature Selection</strong>: Correlation-Based Selection.</p></li>
+</ul>
+</section>
+<section id="customization-methods">
+<h2>Customization Methods<a class="headerlink" href="#customization-methods" title="Link to this heading"></a></h2>
+</section>
+<section id="how-to-customize-preprocessing-steps">
+<h2>How to Customize Preprocessing Steps<a class="headerlink" href="#how-to-customize-preprocessing-steps" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Access the Options Menu</strong>:
+- After uploading your dataset, navigate to the preprocessing options section.</p></li>
+<li><p><strong>Select Desired Options</strong>:
+- <strong>Data Encoding</strong>: Choose between One-Hot Encoding and Label Encoding by checking the corresponding box.
+- <strong>Outlier Detection</strong>: Select your preferred method(s) by checking the appropriate boxes.
+- <strong>Missing Value Handling</strong>: Pick a strategy that suits your data.
+- <strong>Feature Selection</strong>: Choose between Correlation-Based Selection and LASSO Regression.</p></li>
+<li><p><strong>Apply Changes</strong>:
+- Click on the &quot;Apply&quot; button to execute the preprocessing steps with your selected configurations.</p></li>
+<li><p><strong>Review and Download</strong>:
+- Once processing is complete, review the results.
+- Download the processed data for your analysis.</p></li>
+</ol>
+</section>
+<section id="tips-for-effective-configuration">
+<h2>Tips for Effective Configuration<a class="headerlink" href="#tips-for-effective-configuration" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Understand Your Data</strong>: Review your dataset to determine which preprocessing methods are most appropriate.</p></li>
+<li><p><strong>Experiment with Options</strong>: Try different combinations of settings to see which yields the best results for your specific use case.</p></li>
+<li><p><strong>Use Default Settings When Unsure</strong>: If you're uncertain about which options to choose, rely on the default settings to ensure basic preprocessing is applied.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="API%20Reference.html" class="btn btn-neutral float-left" title="API Reference" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Maintenance%20and%20Troubleshooting.html" class="btn btn-neutral float-right" title="Maintenance and Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, yoominji.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
