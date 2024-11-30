@@ -27,6 +27,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
 .. admonition:: Request Body (JSON)
 :class: important
 
+
 .. code-block:: json
    :linenos:
 
@@ -38,6 +39,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
          "remove_duplicates": true
       }
    }
+
 
 **Response Format**  
 
