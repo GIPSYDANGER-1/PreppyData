@@ -32,4 +32,13 @@ language = 'python'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'  # 사용 중인 테마
+html_theme_options = {
+    'canonical_url': 'https://yourproject.readthedocs.io/',
+    'logo_only': True,
+    # 'display_version': True,  # 이 줄을 제거하거나 주석 처리합니다.
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+}
 html_static_path = ['_static']
