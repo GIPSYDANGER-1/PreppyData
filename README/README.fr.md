@@ -64,3 +64,5 @@ Les services actuels de préparation des données offrent des méthodes automati
  - Téléchargez un fichier CSV ou XLSX.
  - Sélectionnez des techniques de préparation spécifiques, telles que le codage des données, la détection des valeurs aberrantes ou le traitement des valeurs manquantes (appliqué automatiquement si non spécifié).
  - Téléchargez les données traitées dans le format souhaité pour une analyse complémentaire.
+
+[Visit PreppyData Docs](https://preppydata.readthedocs.io)
