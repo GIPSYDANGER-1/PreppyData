@@ -1,3 +1,6 @@
+API Reference
+==============
+
 1. Data Cleaning Endpoint
 --------------------------
 
