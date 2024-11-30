@@ -9,21 +9,14 @@
 project = 'PreppyData'
 copyright = '2024, yoominji'
 author = 'yoominji'
+release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # extensions에 myst_parser 추가
-extensions = [
-    'myst_parser',  # Markdown 지원
-]
+extensions = [] 
 
-# myst_parser의 활성화된 확장 기능
-myst_enable_extensions = [
-    "deflist",  # 정의 리스트 지원
-    "linkify",  # URL 자동 링크 변환
-    "html_admonition",  # HTML 경고문 지원
-]
 
 # 헤더에 앵커 추가 (h1, h2, h3까지 지원)
 myst_heading_anchors = 3
