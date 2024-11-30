@@ -14,10 +14,10 @@ Base URL
 Cleans the dataset according to user-defined options, including handling missing values, detecting outliers, and removing duplicates.
 
 **Endpoint**  
-POST /cleaning
-
+``POST /cleaning``
 
 **Request Format**  
+
 .. admonition:: Request Headers
    :class: important
 
@@ -40,6 +40,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Response Format**  
+
 .. admonition:: Success (200 OK)
 :class: success
 
@@ -68,6 +69,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Usage Example**  
+
 .. admonition:: cURL Example
 :class: tip
 
@@ -94,12 +96,12 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
 Selects the most important features from the dataset using a user-defined algorithm.
 
 **Endpoint**  
-POST /feature-selection
-
+``POST /feature-selection``
 
 **Request Format**  
+
 .. admonition:: Request Headers
-   :class: important
+:class: important
 
 Content-Type: application/json Authorization: Bearer <your-api-token>
 
@@ -117,6 +119,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Response Format**  
+
 .. admonition:: Success (200 OK)
 :class: success
 
@@ -141,6 +144,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Usage Example**  
+
 .. admonition:: cURL Example
 :class: tip
 
@@ -164,12 +168,12 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
 Converts categorical data into One-hot, Label, or Target encoding.
 
 **Endpoint**  
-POST /encoding
-
+``POST /encoding``
 
 **Request Format**  
+
 .. admonition:: Request Headers
-   :class: important
+:class: important
 
 Content-Type: application/json Authorization: Bearer <your-api-token>
 
@@ -187,6 +191,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Response Format**  
+
 .. admonition:: Success (200 OK)
 :class: success
 
@@ -210,6 +215,7 @@ Content-Type: application/json Authorization: Bearer <your-api-token>
    }
 
 **Usage Example**  
+
 .. admonition:: cURL Example
 :class: tip
 
